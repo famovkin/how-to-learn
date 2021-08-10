@@ -6,6 +6,10 @@
   text-align: center;
 }
 
-.cards__item:nth-of-type(3n) {
-  margin-right: 0;
+.cards__item:nth-child(-n+2) {
+  margin-right: 100px;
+}
+
+.cards__item:nth-child(n+4) {
+  margin-right: 100px;
 }
